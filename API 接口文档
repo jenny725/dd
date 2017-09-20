@@ -1,0 +1,54 @@
+
+1.展示数据
+  url:'http://192.168.1.105:88/getAllList'
+  参数：
+  type:"GET"
+  返回的数据:
+  '
+  {
+   code: 0,
+   msg: '成功',
+   data: [
+        {
+         "name":"陈恒达",
+         "age":"8",
+         "phone":"12345678900",
+         "address":"北京次城区",
+         "id":"6"
+        }
+        ...
+   ]
+  }
+
+2. 增加
+
+ url:'http://192.168.1.105:88/addInfo'
+ type:"POST"
+ data:'{}'
+
+
+3.获取id 对应的数据
+
+  url:'http://192.168.1.105:88/getInfo'
+  参数： id
+
+
+4.修改
+
+  url:'http://192.168.1.105:88/updateInfo'
+
+  type:'POST'
+
+  data:'{}'
+
+
+5.删除
+
+ url:'http://192.168.1.105:88/removeInfo'
+
+ 参数 ：  id
+
+
+
+
+  '

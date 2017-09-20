@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    color: #3e3e3e;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif,Helvetica;
+    overflow-x:hidden;
+}
+a,a:hover,a:active{
+    color: green;
+    text-decoration: none;
+}
+
+.box{
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid green;
+}
+.box .link{
+    display: block;
+    line-height: 35px;
+}
+.box .link:hover{
+    text-decoration: underline;
+}
+.box h2{
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: green;
+    color: white;
+    font-size: 16px;
+}
+.box h2 span,.list li span{
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+.box h2 span.small,.list li span.small{
+    width: 100px;
+}
+
+.list li{
+    height: 30px;
+    line-height: 30px;
+}
+.list li .control a{
+    margin: 0 2px;
+}
+.list li:nth-child(even){
+    background: lightblue;
+}
+.list li:hover{
+    background: lightcoral;
+}
+
+

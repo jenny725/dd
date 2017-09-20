@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    color: #555;
+    font-family: "微软雅黑",Helvetica,sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+    width: 100%;
+}
+a, a:hover, a:active {
+    color: #555;
+    text-decoration: none;
+}
+ul, li {
+    list-style: outside none none;
+}
+.box {
+    border: 2px solid green;
+    margin: 10px auto;
+    padding: 10px;
+    width: 1000px;
+}
+.box .link {
+    color: green;
+    display: block;
+    line-height: 35px;
+}
+.box .link:hover {
+    text-decoration: underline;
+}
+.box h2 {
+    background: green none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.box h2 span, .box ul li span {
+    float: left;
+    width: 200px;
+}
+.box h2 span.fir, .box ul li span.fir {
+    width: 100px;
+}
+.box ul li {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.box ul li span.control a {
+    color: green;
+    display: inline-block;
+    margin: 0 5px;
+}
+.box ul li:nth-child(2n) {
+    background: #eee none repeat scroll 0 0;
+}
+.box ul li:hover {
+    background: #fcf0b5 none repeat scroll 0 0;
+}
+input {
+    outline: medium none;
+}
+.box2 {
+    border: 2px solid green;
+    margin: 10px auto;
+    padding: 10px;
+    width: 500px;
+}
+.box2 div {
+    height: 50px;
+    line-height: 50px;
+}
+.box2 div span, .box2 div input {
+    display: inline-block;
+}
+.box2 div span {
+    text-align: center;
+    width: 50px;
+}
+.box2 div input {
+    border: 1px solid #ccc;
+    height: 25px;
+    padding: 0 5px;
+    width: 300px;
+}
+#userName, #userAge {
+    width: 150px;
+}
+#submit {
+    background: green none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px auto;
+    text-align: center;
+    width: 200px;
+}
